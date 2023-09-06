@@ -10,10 +10,16 @@ img {
 
 .card {
     width: 100%;
-    position: relative;
+    /* position: relative; */
 }
 
 /* Header */
+.page-header {
+    background-color: rgba(255,105,0,255);
+    width: 100%;
+    height: 50px;
+}
+
 
 /* Main */
 .img-dimension {
@@ -25,6 +31,10 @@ img {
 
     margin: 0 auto;
     padding-top: 100px;
+}
+
+.card-figure {
+    position: relative;
 }
 
 .row {
@@ -107,10 +117,10 @@ img {
     text-decoration: line-through;
 }
 
-.product-information {
+/* .product-information {
     position: absolute;
     top: 925px;
-}
+} */
 
 .card:hover .dopo {
     opacity: 1;
@@ -120,6 +130,17 @@ img {
     position: absolute;
     top: 0;
     opacity: 0;
+}
+
+/* Bonus */
+
+.red-hearth {
+    color: red;
+    opacity: 0;
+}
+
+.red-hearth:hover {
+    opacity: 1;
 }
 
 /* Footer */
